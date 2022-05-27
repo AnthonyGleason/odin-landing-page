@@ -99,8 +99,37 @@ body{
 /* Information Section Styling */
 .info{
     height: 25vh;
+    display: flex;
+    flex-direction: column;
 }
-
+.info-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 20px;
+}
+.info-bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-image{
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border-color:rgb(105, 122, 214);
+}
+.info-text{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: #1F2937;
+    padding-top: 10px;
+    font-size: 18px;
+}
 /* Quote Section Styling */
 .quote{
     height: 25vh;
