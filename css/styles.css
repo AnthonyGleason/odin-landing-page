@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Set the padding for each section of the webpage */
@@ -45,7 +46,7 @@ body{
 .header-list{
     list-style: none; 
     display: flex;
-    width: 400px;
+    width: 450px;
     justify-content: flex-end;
     justify-content: space-between;
 }
